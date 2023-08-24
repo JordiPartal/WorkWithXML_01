@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D454A04E-397C-4856-89F6-113362B78090}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>FrmPlaneta</RootNamespace>
+    <AssemblyName>FrmPlaneta</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\FicherosXML_Partal_Jordi\app\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmPlaneta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPlaneta.Designer.cs">
+      <DependentUpon>FrmPlaneta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmPlaneta.resx">
+      <DependentUpon>FrmPlaneta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Ficheros\DataBank.xml" />
+    <Content Include="Ficheros\Planetes\Byss.png" />
+    <Content Include="Ficheros\Planetes\Colonies.jpg" />
+    <Content Include="Ficheros\Planetes\Core.jpg" />
+    <Content Include="Ficheros\Planetes\Corellia.jpg" />
+    <Content Include="Ficheros\Planetes\corellianRun.jpg" />
+    <Content Include="Ficheros\Planetes\corellianTrade.jpg" />
+    <Content Include="Ficheros\Planetes\Coruscant.png" />
+    <Content Include="Ficheros\Planetes\D%27Qar.png" />
+    <Content Include="Ficheros\Planetes\Dagobah.jpg" />
+    <Content Include="Ficheros\Planetes\Dantooine.png" />
+    <Content Include="Ficheros\Planetes\Dathomir.png" />
+    <Content Include="Ficheros\Planetes\DeepCore.jpg" />
+    <Content Include="Ficheros\Planetes\Devaron.png" />
+    <Content Include="Ficheros\Planetes\Endor.png" />
+    <Content Include="Ficheros\Planetes\ExpansionRegion.jpg" />
+    <Content Include="Ficheros\Planetes\galaxy-map.jpg" />
+    <Content Include="Ficheros\Planetes\Gyndine.jpg" />
+    <Content Include="Ficheros\Planetes\Hoth.png" />
+    <Content Include="Ficheros\Planetes\hydian.jpg" />
+    <Content Include="Ficheros\Planetes\InnerRim.jpg" />
+    <Content Include="Ficheros\Planetes\Jakku.png" />
+    <Content Include="Ficheros\Planetes\Jelucan.png" />
+    <Content Include="Ficheros\Planetes\Kashyyyk.png" />
+    <Content Include="Ficheros\Planetes\Kessel.png" />
+    <Content Include="Ficheros\Planetes\Kuat.png" />
+    <Content Include="Ficheros\Planetes\Manaan.jpg" />
+    <Content Include="Ficheros\Planetes\Mandalore.png" />
+    <Content Include="Ficheros\Planetes\MidRim.jpg" />
+    <Content Include="Ficheros\Planetes\Mustafar.png" />
+    <Content Include="Ficheros\Planetes\Naboo.jpg" />
+    <Content Include="Ficheros\Planetes\OuterRim.jpg" />
+    <Content Include="Ficheros\Planetes\permelian.jpg" />
+    <Content Include="Ficheros\Planetes\Rakata Prime.png" />
+    <Content Include="Ficheros\Planetes\RimmaTrade.jpg" />
+    <Content Include="Ficheros\Planetes\Shili.jpg" />
+    <Content Include="Ficheros\Planetes\swgalaxy.jpg" />
+    <Content Include="Ficheros\Planetes\swmap.jpg" />
+    <Content Include="Ficheros\Planetes\Takodana.png" />
+    <Content Include="Ficheros\Planetes\Tatooine.png" />
+    <Content Include="Ficheros\Planetes\Teth.jpg" />
+    <Content Include="Ficheros\Planetes\Unkwld_space.jpg" />
+    <Content Include="Ficheros\Planetes\zonaNE.jpg" />
+    <Content Include="Ficheros\Planetes\zonaNW.jpg" />
+    <Content Include="Ficheros\Planetes\zonaSE.jpg" />
+    <Content Include="Ficheros\Planetes\zonaSW.jpg" />
+    <None Include="Resources\cargando.gif" />
+    <None Include="Resources\cargado.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

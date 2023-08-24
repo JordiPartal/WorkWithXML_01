@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33027.164
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FicherosXML_Partal_Jordi", "FicherosXML_Partal_Jordi\FicherosXML_Partal_Jordi.csproj", "{906E77E3-EC8F-4468-9291-3243E0811933}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Planeta", "FrmPlaneta\Planeta.csproj", "{D454A04E-397C-4856-89F6-113362B78090}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{906E77E3-EC8F-4468-9291-3243E0811933}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{906E77E3-EC8F-4468-9291-3243E0811933}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{906E77E3-EC8F-4468-9291-3243E0811933}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{906E77E3-EC8F-4468-9291-3243E0811933}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D454A04E-397C-4856-89F6-113362B78090}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D454A04E-397C-4856-89F6-113362B78090}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D454A04E-397C-4856-89F6-113362B78090}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D454A04E-397C-4856-89F6-113362B78090}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8CFF1EAE-CA48-47E1-8B48-9EFBC31A9509}
+	EndGlobalSection
+EndGlobal
